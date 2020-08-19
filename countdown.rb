@@ -1,10 +1,8 @@
 #write your code here
-require 'pry'
-def countdown (clock)
-  until clock == 0
-      "#{clock} SECOND(S)!"
-      clock -= 1
-  binding.pry
+def countdown (integer)
+  until integer == 0
+      "#{integer} SECOND(S)!"
+      integer -= 1
   end
   "HAPPY NEW YEAR!"
 end
