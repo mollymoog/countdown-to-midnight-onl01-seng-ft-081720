@@ -1,6 +1,6 @@
 #write your code here
 
-def countdown
+def countdown (clock)
   clock = 10
   until clock == 10
       puts "#{clock} SECOND(S)!"
