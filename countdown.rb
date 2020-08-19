@@ -1,8 +1,7 @@
 #write your code here
 
 def countdown (clock)
-  clock = 10
-  until clock == 10
+  until clock == 0
       puts "#{clock} SECOND(S)!"
       clock -= 1
   end
